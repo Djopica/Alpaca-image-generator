@@ -1,0 +1,251 @@
+body{
+    background-image: url(/alpaca-generator-assets/alpaca/backgrounds/blue50.png);
+    margin: 0;
+  }
+  #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+  }
+  #inner-div {
+    box-sizing: border-box;
+    width: 50%;
+  }
+  #headline {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+    size: 300px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:darkblue;
+  }
+  #inner-div2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-between;
+    width: 50%;
+  }
+  .alpacaPic {
+    width: 400px;
+  }
+  .alpacaPic:not(#background) {
+    
+    top: 159px;
+    right: 756px;
+  }
+  .active-bg {
+    background-color: #00193d!important;
+    color: white;
+}
+  h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    size: 200px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:darkblue;
+  }
+  #inner-right-side{
+    padding:2em;
+}
+  #inner-right-side-first {
+    margin-bottom: 10px;
+  }
+  .buttons,.hairbuttons , .earbuttons ,.eyebuttons,.legbuttons,.mouthbuttons,.neckbuttons,.backgroundsbuttons,.accessoriesbuttons {
+    margin: 3px;
+    background-color: transparent;
+    color: rgb(115, 202, 202);
+    font-size: 17px;
+    border: 1px solid rgb(115, 202, 202);
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 20px;
+    /* border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%; */
+  cursor: pointer;
+  }
+  .buttons:hover,.hairbuttons:hover,.earbuttons:hover,.eyebuttons:hover,.legbuttons:hover,.mouthbuttons:hover,.neckbuttons:hover,.backgroundsbuttons:hover,.accessoriesbuttons:hover {
+    color: white;
+    border-color: white;
+    background-color:rgb(115, 202, 202);
+  }
+  #randdown {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: row;
+    align-self: left;
+    justify-content: space-between;
+  }
+  .download-buttons {
+    text-decoration: none;
+    background-color:wheat;
+    padding: 7px 58px;
+    cursor: pointer;
+    border: none;
+    color:black;
+    font-size:14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 4px;
+    font-weight: 900;
+  }
+  #background {
+    position: relative;
+  }
+  #neck {
+    position: absolute;
+    top: 159px;
+    right: 758px;
+  }
+  #hair {
+    position: absolute;
+    top:159px;
+    right:756px;
+    z-index: 5;
+  }
+  #eyes{
+    position: absolute;
+    top:159px;
+    right:758px;
+    z-index: 6;
+  }
+  #leg{
+    position: absolute;
+    top:159px;
+    right:756px;
+  }
+  #accessories{
+    position: absolute;
+    top:159px;
+    right:758px;
+    z-index: 8;
+  }
+  #mouth{
+    position: absolute;
+    top:159px;
+    right:756px;
+    z-index: 10;
+  }
+  #ears{
+    position: absolute;
+    top:159px;
+    right:756px;
+  }
+  #nose{
+    position: absolute;
+    top:159px;
+    right:756px;
+  }
+  #ear-items, #hair-items, #eyes-items, #leg-items, #mouth-items, #neck-items, #background-items, #accessories-items, #heading2, #section-style{
+    display: none;
+  }
+
+ 
+  @media screen and (max-width: 1500px) {
+    .alpacaPic:not(#background){
+        top:159px;
+        right:47.348958vw;
+    
+    }
+    #inner-div2{
+        width: 60%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    #inner-div2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #inner-right-side{
+        padding:12px;
+    }
+    h2{
+        text-align: center;
+    }
+    #headline{
+        text-align: center;
+    }
+    .alpacaPic:not(#background){
+        top:159px;
+        right:31.348958vw;
+    
+    }
+        }
+  @media screen and (max-width: 860px ) {
+  
+    .alpacaPic:not(#background){
+        top:159px;
+        right:28.348958vw;
+    
+    }
+    
+  
+    }
+  @media screen and (max-width: 740px ) {
+  
+    .alpacaPic:not(#background){
+        top:159px;
+        right:28.348958vw;
+    
+    }
+    
+  
+    }
+  @media screen and (max-width: 580px ) {
+  
+    .alpacaPic:not(#background){
+        top:159px;
+        right:19.348958vw;
+    
+    }
+    
+  
+    }
+
+  @media screen and (max-width: 530px ) {
+  
+    .alpacaPic:not(#background){
+        top:159px;
+        right:15.348958vw;
+    
+    }
+  }
+  @media screen and (max-width: 480px ) {
+  
+    .alpacaPic:not(#background){
+        top:159px;
+        right:15.348958vw;
+    
+    } 
+  }
+  @media screen and (max-width: 375px ) {
+    .alpacaPic{
+        width: 300px;
+    }
+    #image{
+        display: flex;
+        justify-content: center;
+    }
+    #inner-div3{
+        justify-content: center;
+    }
+    .download-buttons{
+        padding:7px 29px;
+        margin: 10px;
+    }
+    .alpacaPic:not(#background){
+        top:198px;
+        right:15.348958vw;
+    
+    }
+    
+  
+    }
+  

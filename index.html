@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+        <!-- Compiled and minified CSS -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+    <title>Alpaca Generator</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="inner-div">
+            <h1 id="headline">Alpaca Generator</h1>
+        </div>
+        <div id="inner-div2">
+            <div id="inner-left-side">
+                <div id="image">
+
+                    <img src="/alpaca-generator-assets/alpaca/backgrounds/grey40.png" alt="Aplaca pic" class="alpacaPic " id="background">
+                        <img src="/alpaca-generator-assets/alpaca/leg/default.png" class="alpacaPic" id="leg">
+                        <img src="/alpaca-generator-assets/alpaca/mouth/default.png" class="alpacaPic" id="mouth">
+                        <img src="/alpaca-generator-assets/alpaca/eyes/default.png" class="alpacaPic" id="eyes">
+                        <img src="/alpaca-generator-assets/alpaca/accessories/headphone.png" class="alpacaPic" id="accessories">
+                        <img src="/alpaca-generator-assets/alpaca/ears/default.png" class="alpacaPic" id="ears">
+                        <img src="/alpaca-generator-assets/alpaca/hair/default.png" class="alpacaPic" id="hair">
+                        <img src="/alpaca-generator-assets/alpaca/neck/default.png" class="alpacaPic" id="neck">
+                        <img src="/alpaca-generator-assets/alpaca/nose.png" class="alpacaPic" id="nose">
+
+                </div>
+                <div id="randdown">
+           
+                    <button id="random" class="download-buttons" > <i class="fa fa-solid fa-user"></i> &nbsp; Random</button>
+                    <button id="download" class="download-buttons" > <i class="fa fa-solid fa-download"></i> &nbsp;Download</button>
+                
+                </div>
+            </div>
+            <div id="inner-right-side">
+                <div id="inner-right-side-first">
+                    <h2 id="heading1">ACCESSORIZE THE ALPACA'S</h2>
+                            <button class="buttons btn-acc"  id="btn-hair">Hair</button>
+                            <button class="buttons btn-acc"  id="btn-ears">Ears</button>
+                            <button class="buttons btn-acc"  id="btn-eyes">Eyes</button>
+                            <button class="buttons btn-acc"  id="btn-mouth">Mouth</button>
+                            <button class="buttons btn-acc"  id="btn-neck">Neck</button>
+                            <button class="buttons btn-acc"  id="btn-leg">Leg</button>
+                            <button class="buttons btn-acc"  id="btn-accessories">Accessories</button>
+                            <button class="buttons btn-acc"  id="btn-background">Background</button>
+                </div>
+                <div id="section-style">
+                    <h2 id="heading2">STYLE</h2>
+                    <!--     Hair     -->
+                    <div id="hair-items">
+                        <button value="default" class="hairbuttons active-bg" >Default</button>
+                        <button value="bang" class="hairbuttons" >Bang</button>
+                        <button value="curls" class="hairbuttons" >Curls</button>
+                        <button value="elegant" class="hairbuttons" >Elegant</button>
+                        <button value="fancy" class="hairbuttons" >Fancy</button>
+                        <button value="quiff" class="hairbuttons" >Quiff</button>
+                        <button value="short" class="hairbuttons" >Short</button>
+                    </div>
+                    <!--     Ears     -->
+                    <div id="ear-items">
+                        <button value="default" class="earbuttons active-bg" >Default</button>
+                        <button value="tilt-backward" class="earbuttons" >Tilt-backward</button>
+                        <button value="tilt-forward" class="earbuttons" >Tilt-forward</button>
+                    </div>
+                    <!--     Eyes     -->
+                    <div id="eyes-items">
+                        <button value="default" class="eyebuttons active-bg" >Default</button>
+                        <button value="angry" class="eyebuttons" >Angry</button>
+                        <button value="naughty" class="eyebuttons" >Naughty</button>
+                        <button value="panda" class="eyebuttons" >Panda</button>
+                        <button value="smart" class="eyebuttons" >Smart</button>
+                        <button value="star" class="eyebuttons" >Star</button>
+                    </div>
+                    <!--     Legs     -->
+                    <div id="leg-items">
+                        <button value="default" class="legbuttons active-bg" >Default</button>
+                        <button value="bubble-tea" class="legbuttons" >Bubble-tea</button>
+                        <button value="cookie" class="legbuttons" >Cookie</button>
+                        <button value="game-console" class="legbuttons" >Game-console</button>
+                        <button value="tilt-backward" class="legbuttons" >Tilt-backward</button>
+                        <button value="tilt-forward" class="legbuttons" >Tilt-forward</button>
+                    </div>
+                    <!--     Mouth     -->
+                    <div id="mouth-items">
+                        <button value="default" class="mouthbuttons active-bg" >Default</button>
+                        <button value="astonished" class="mouthbuttons" >Astonished</button>
+                        <button value="eating" class="mouthbuttons" >Eating</button>
+                        <button value="laugh" class="mouthbuttons" >Laugh</button>
+                        <button value="tongue" class="mouthbuttons" >Tongue</button>
+                    </div>
+                    <!--     Neck     -->
+                    <div id="neck-items">
+                        <button value="default" class="neckbuttons active-bg">Default</button>
+                        <button value="bend-backward" class="neckbuttons">Bend-backward</button>
+                        <button value="bend-forward" class="neckbuttons">Bend-forward</button>
+                        <button value="thick" class="neckbuttons">Thick</button>
+                    </div>
+                    <!--     Background     -->
+                    <div id="background-items">
+                        <button value="blue50" class="backgroundsbuttons active-bg" >Blue50</button>
+                        <button value="blue60" class="backgroundsbuttons" >Blue60</button>
+                        <button value="blue70" class="backgroundsbuttons" >Blue70</button>
+                        <button value="darkblue30" class="backgroundsbuttons" >Darkblue30</button>
+                        <button value="darkblue50" class="backgroundsbuttons" >Darkblue50</button>
+                        <button value="darkblue70" class="backgroundsbuttons" >Darkblue70</button>
+                        <button value="green50"  class="backgroundsbuttons" >Green50</button>
+                        <button value="green60" class="backgroundsbuttons" >Green60</button>
+                        <button value="green70" class="backgroundsbuttons" >Green70</button>
+                        <button value="grey40" class="backgroundsbuttons" >Grey40</button>
+                        <button value="grey70" class="backgroundsbuttons" >Grey70</button>
+                        <button value="grey80" class="backgroundsbuttons" >Grey80</button>
+                    </div>
+                    <!--     Accessories     -->
+                    <div id="accessories-items">
+                        <button value="earings" class="accessoriesbuttons" >Earings</button>
+                        <button value="flower" class="accessoriesbuttons" >Flower</button>
+                        <button value="glasses" class="accessoriesbuttons" >Glasses</button>
+                        <button value="headphone" class="accessoriesbuttons active-bg">Headphone</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>  
+        <!-- Compiled and minified JavaScript -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>-->
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="main.js"></script> 
+</body>
+
+</html>
